@@ -42,14 +42,14 @@ Spam emails are a significant nuisance and a potential security risk. This proje
    ```python
    !pip install <library_name>
 ---
-Usage :   
+## Usage :   
 Upload Dataset: Upload your email dataset (e.g., a CSV file) to the Colab notebook. You can do this by clicking the "Files" tab in the Colab sidebar and using the upload option.  
 Run Notebook: Execute the cells in the notebook sequentially to preprocess the data, train the model, and evaluate the performance.  
 View Output: The notebook will display the output metrics and plots to help you understand the model's effectiveness.  
 
 ---
 
-Project Workflow :  
+## Project Workflow :  
 Data Preprocessing:  
 Clean and tokenize the email text.  
 Remove stop words, punctuation, and other irrelevant text elements.  
@@ -66,7 +66,7 @@ Use metrics like accuracy, precision, recall, and F1-score to assess how well th
 
 ---
 
-Technologies Used
+## Technologies Used
 Programming Language : Python  
 
 Libraries:  
@@ -77,12 +77,12 @@ TF-IDF Vectorizer: To convert text data into numerical features for the model.
 
 ---
 
-Results
+## Results :  
 The model achieves high accuracy in distinguishing spam from non-spam emails, making it suitable for practical use in email filtering systems. You can evaluate the performance of the model with the following metrics:
 
-Accuracy: Measures the percentage of correct predictions.
-Precision: Measures how many of the predicted spam emails were actually spam.
-Recall: Measures how many of the actual spam emails were correctly identified.
-F1-score: The harmonic mean of precision and recall, giving a balanced view of the model's performance.
+Accuracy: Measures the percentage of correct predictions.  
+Precision: Measures how many of the predicted spam emails were actually spam.  
+Recall: Measures how many of the actual spam emails were correctly identified.  
+F1-score: The harmonic mean of precision and recall, giving a balanced view of the model's performance.  
 
 
